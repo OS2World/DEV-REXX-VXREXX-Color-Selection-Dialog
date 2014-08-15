@@ -1,0 +1,16 @@
+
+			   Color Selection Dialog
+		        Written by Adam Van de Berghe
+			email address: aabacus@li.net
+
+  This is a simple color selection dialog that you can use in the programs you
+write using VX-Rexx.  To install it, just ad the following line into your
+projects .VRP file:     "VRX: ColorDlg.VRX" (Without the quotes)
+  There are no parameters to use when calling this dialog.  When it returns the
+colros, it returns them in the variable form "forecolor backcolor".  A simple
+way to run this dialog is:  color = ColorDlg()
+After exiting, the color variable should be in the form stated above.  If the
+cancel button was clicked, then the variable would be "".
+  This program is provided "AS IS" with NO WARRENTY expressed or implied.  The
+user (you) take full responsabilities for any damages that may occurr from this
+program.  Use it at your own risk, hey ... its free!
